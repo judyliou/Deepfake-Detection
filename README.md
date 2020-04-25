@@ -28,5 +28,5 @@ As there are abnormal changes on the face when the person is talking if the vide
 Another method that can address temporal features is attention. It reads all input images in different timestamps and figures out which inputs should attend more when predicting for one timestamp. In our models, self-attention is applied to the embedding feature vectors for frames. The concept is that during the self-attention, the model match frames from different timestamp and attend some frames to compare their differences. After the self-attention layer, either concatenating vectors for all timestamps or applying max-pooling are conducted in our experiments. On top of the model, a linear layer is added to predict the output probability.
 
 <p align="center">
-  <img src="https://lh4.googleusercontent.com/G9mXGFQIPnxHzQgDxK1K4KzWO2puLB2lmFwglzgfcYT9fTdpjPfmSrO1qqZrKVPIC9SIN7lHJ_vNDxYuvtCoBgLqXFpcFLUs8scf_er3JKyxx4dWmjnUJK6Nt_qUP5SsoNCHq92F" alt="img"  width="380"/>
+  <img src="https://lh4.googleusercontent.com/G9mXGFQIPnxHzQgDxK1K4KzWO2puLB2lmFwglzgfcYT9fTdpjPfmSrO1qqZrKVPIC9SIN7lHJ_vNDxYuvtCoBgLqXFpcFLUs8scf_er3JKyxx4dWmjnUJK6Nt_qUP5SsoNCHq92F" alt="img"  width="400"/>
  </p>
